@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461CCE5F1B845CBF002AB586 /* UIImage+ETRemRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 461CCE5E1B845CBF002AB586 /* UIImage+ETRemRender.m */; };
+		46336F181B876964009A04B8 /* ETDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46336F171B876964009A04B8 /* ETDiscoverController.m */; };
+		46336F1B1B8769A9009A04B8 /* EThomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46336F1A1B8769A9009A04B8 /* EThomeController.m */; };
+		46336F1E1B876A0F009A04B8 /* ETMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46336F1D1B876A0F009A04B8 /* ETMessageController.m */; };
+		46336F211B876A29009A04B8 /* ETProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46336F201B876A29009A04B8 /* ETProfileController.m */; };
+		46336F271B877CD8009A04B8 /* ETNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46336F261B877CD8009A04B8 /* ETNavController.m */; };
 		46E5A6931B8413C800B75941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A6921B8413C800B75941 /* main.m */; };
 		46E5A6961B8413C800B75941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A6951B8413C800B75941 /* AppDelegate.m */; };
-		46E5A6991B8413C800B75941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A6981B8413C800B75941 /* ViewController.m */; };
-		46E5A69C1B8413C800B75941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E5A69A1B8413C800B75941 /* Main.storyboard */; };
 		46E5A69E1B8413C800B75941 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E5A69D1B8413C800B75941 /* Images.xcassets */; };
 		46E5A6A11B8413C800B75941 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46E5A69F1B8413C800B75941 /* LaunchScreen.xib */; };
 		46E5A6AD1B8413C800B75941 /* ETWeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A6AC1B8413C800B75941 /* ETWeiboTests.m */; };
+		46E5A6BD1B8417DC00B75941 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E5A6BC1B8417DC00B75941 /* UIKit.framework */; };
+		46E5A6C01B8418A000B75941 /* ETTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A6BF1B8418A000B75941 /* ETTabBarController.m */; };
+		46E5A6C31B841D6900B75941 /* ETTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E5A6C21B841D6900B75941 /* ETTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		461CCE5D1B845CBF002AB586 /* UIImage+ETRemRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ETRemRender.h"; sourceTree = "<group>"; };
+		461CCE5E1B845CBF002AB586 /* UIImage+ETRemRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ETRemRender.m"; sourceTree = "<group>"; };
+		46336F161B876964009A04B8 /* ETDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDiscoverController.h; sourceTree = "<group>"; };
+		46336F171B876964009A04B8 /* ETDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETDiscoverController.m; sourceTree = "<group>"; };
+		46336F191B8769A9009A04B8 /* EThomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EThomeController.h; sourceTree = "<group>"; };
+		46336F1A1B8769A9009A04B8 /* EThomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EThomeController.m; sourceTree = "<group>"; };
+		46336F1C1B876A0F009A04B8 /* ETMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMessageController.h; sourceTree = "<group>"; };
+		46336F1D1B876A0F009A04B8 /* ETMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMessageController.m; sourceTree = "<group>"; };
+		46336F1F1B876A29009A04B8 /* ETProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETProfileController.h; sourceTree = "<group>"; };
+		46336F201B876A29009A04B8 /* ETProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETProfileController.m; sourceTree = "<group>"; };
+		46336F251B877CD8009A04B8 /* ETNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNavController.h; sourceTree = "<group>"; };
+		46336F261B877CD8009A04B8 /* ETNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETNavController.m; sourceTree = "<group>"; };
 		46E5A68D1B8413C800B75941 /* ETWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E5A6911B8413C800B75941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46E5A6921B8413C800B75941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46E5A6941B8413C800B75941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46E5A6951B8413C800B75941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		46E5A6971B8413C800B75941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		46E5A6981B8413C800B75941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		46E5A69B1B8413C800B75941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46E5A69D1B8413C800B75941 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		46E5A6A01B8413C800B75941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		46E5A6A61B8413C800B75941 /* ETWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E5A6AB1B8413C800B75941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46E5A6AC1B8413C800B75941 /* ETWeiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETWeiboTests.m; sourceTree = "<group>"; };
+		46E5A6BC1B8417DC00B75941 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46E5A6BE1B8418A000B75941 /* ETTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTabBarController.h; sourceTree = "<group>"; };
+		46E5A6BF1B8418A000B75941 /* ETTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTabBarController.m; sourceTree = "<group>"; };
+		46E5A6C11B841D6900B75941 /* ETTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTabBar.h; sourceTree = "<group>"; };
+		46E5A6C21B841D6900B75941 /* ETTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E5A6BD1B8417DC00B75941 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +82,211 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46094F491B862EE100B48646 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				46094F611B8631AB00B48646 /* Discover */,
+				46094F5B1B86307700B48646 /* Main */,
+				46094F4F1B862F8100B48646 /* Home */,
+				46094F531B862FF700B48646 /* Message */,
+				46094F571B86303100B48646 /* Profile */,
+				46094F5C1B86307F00B48646 /* Other */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		46094F4A1B862F2D00B48646 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		46094F4B1B862F3E00B48646 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		46094F4D1B862F6500B48646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		46094F4E1B862F6D00B48646 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46336F191B8769A9009A04B8 /* EThomeController.h */,
+				46336F1A1B8769A9009A04B8 /* EThomeController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		46094F4F1B862F8100B48646 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				46094F4A1B862F2D00B48646 /* Discover */,
+				46094F4E1B862F6D00B48646 /* Controller */,
+				46094F4D1B862F6500B48646 /* View */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		46094F531B862FF700B48646 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				46094F561B86301400B48646 /* Model */,
+				46094F551B86300C00B48646 /* View */,
+				46094F541B862FFF00B48646 /* Controller */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		46094F541B862FFF00B48646 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46336F1C1B876A0F009A04B8 /* ETMessageController.h */,
+				46336F1D1B876A0F009A04B8 /* ETMessageController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		46094F551B86300C00B48646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		46094F561B86301400B48646 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		46094F571B86303100B48646 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				46094F5A1B86305000B48646 /* Controller */,
+				46094F591B86304400B48646 /* View */,
+				46094F581B86303C00B48646 /* Model */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		46094F581B86303C00B48646 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46336F1F1B876A29009A04B8 /* ETProfileController.h */,
+				46336F201B876A29009A04B8 /* ETProfileController.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		46094F591B86304400B48646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		46094F5A1B86305000B48646 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		46094F5B1B86307700B48646 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				46094F5F1B86310200B48646 /* View */,
+				46094F5D1B8630EB00B48646 /* Controller */,
+				46094F4B1B862F3E00B48646 /* Model */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		46094F5C1B86307F00B48646 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				46E5A6941B8413C800B75941 /* AppDelegate.h */,
+				46E5A6951B8413C800B75941 /* AppDelegate.m */,
+				46094F651B86320200B48646 /* Category */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		46094F5D1B8630EB00B48646 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46E5A6BE1B8418A000B75941 /* ETTabBarController.h */,
+				46E5A6BF1B8418A000B75941 /* ETTabBarController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		46094F5F1B86310200B48646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46E5A6C11B841D6900B75941 /* ETTabBar.h */,
+				46E5A6C21B841D6900B75941 /* ETTabBar.m */,
+				46336F251B877CD8009A04B8 /* ETNavController.h */,
+				46336F261B877CD8009A04B8 /* ETNavController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		46094F611B8631AB00B48646 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				46094F631B8631C600B48646 /* Controller */,
+				46094F641B8631D900B48646 /* Model */,
+				46094F621B8631BA00B48646 /* View */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		46094F621B8631BA00B48646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		46094F631B8631C600B48646 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46336F161B876964009A04B8 /* ETDiscoverController.h */,
+				46336F171B876964009A04B8 /* ETDiscoverController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		46094F641B8631D900B48646 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		46094F651B86320200B48646 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				461CCE5D1B845CBF002AB586 /* UIImage+ETRemRender.h */,
+				461CCE5E1B845CBF002AB586 /* UIImage+ETRemRender.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		46E5A6841B8413C800B75941 = {
 			isa = PBXGroup;
 			children = (
+				46E5A6BC1B8417DC00B75941 /* UIKit.framework */,
 				46E5A68F1B8413C800B75941 /* ETWeibo */,
 				46E5A6A91B8413C800B75941 /* ETWeiboTests */,
 				46E5A68E1B8413C800B75941 /* Products */,
@@ -81,11 +305,7 @@
 		46E5A68F1B8413C800B75941 /* ETWeibo */ = {
 			isa = PBXGroup;
 			children = (
-				46E5A6941B8413C800B75941 /* AppDelegate.h */,
-				46E5A6951B8413C800B75941 /* AppDelegate.m */,
-				46E5A6971B8413C800B75941 /* ViewController.h */,
-				46E5A6981B8413C800B75941 /* ViewController.m */,
-				46E5A69A1B8413C800B75941 /* Main.storyboard */,
+				46094F491B862EE100B48646 /* Classes */,
 				46E5A69D1B8413C800B75941 /* Images.xcassets */,
 				46E5A69F1B8413C800B75941 /* LaunchScreen.xib */,
 				46E5A6901B8413C800B75941 /* Supporting Files */,
@@ -163,6 +383,7 @@
 		46E5A6851B8413C800B75941 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ET;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Larry;
 				TargetAttributes = {
@@ -199,7 +420,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46E5A69C1B8413C800B75941 /* Main.storyboard in Resources */,
 				46E5A6A11B8413C800B75941 /* LaunchScreen.xib in Resources */,
 				46E5A69E1B8413C800B75941 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +439,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46E5A6991B8413C800B75941 /* ViewController.m in Sources */,
+				46E5A6C01B8418A000B75941 /* ETTabBarController.m in Sources */,
+				46336F1B1B8769A9009A04B8 /* EThomeController.m in Sources */,
+				46336F1E1B876A0F009A04B8 /* ETMessageController.m in Sources */,
+				461CCE5F1B845CBF002AB586 /* UIImage+ETRemRender.m in Sources */,
+				46E5A6C31B841D6900B75941 /* ETTabBar.m in Sources */,
 				46E5A6961B8413C800B75941 /* AppDelegate.m in Sources */,
+				46336F271B877CD8009A04B8 /* ETNavController.m in Sources */,
+				46336F211B876A29009A04B8 /* ETProfileController.m in Sources */,
 				46E5A6931B8413C800B75941 /* main.m in Sources */,
+				46336F181B876964009A04B8 /* ETDiscoverController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +471,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46E5A69A1B8413C800B75941 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46E5A69B1B8413C800B75941 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46E5A69F1B8413C800B75941 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,9 +568,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ETWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,9 +581,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ETWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +643,7 @@
 				46E5A6B21B8413C800B75941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46E5A6B31B8413C800B75941 /* Build configuration list for PBXNativeTarget "ETWeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +652,7 @@
 				46E5A6B51B8413C800B75941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

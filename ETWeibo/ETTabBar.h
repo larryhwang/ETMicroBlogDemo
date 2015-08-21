@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ETTabBar.h
 //  ETWeibo
 //
 //  Created by Larry on 15/8/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ETTabBar : UITabBar
 
 @end
-

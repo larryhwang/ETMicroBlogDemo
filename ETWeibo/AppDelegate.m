@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import  "ETTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds] ;   //初始化Windows
+    
+    ETTabBarController *VC = [[ETTabBarController alloc]init];
+    
+    self.window.rootViewController = VC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
